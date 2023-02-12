@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <section class="comand">
+      <h1>Please insert your bill:</h1>
+      <p class="ps">(only numbers)</p>
+      <div class="input">
+        <input type="number" class="tipi" placeholder="0" />
+      </div>
+      <button class="btn check">OK</button>
+    </section>
+
+    <section class="show-bill">
+      <p class="label-bill">Bill: <span class="bill">0</span></p>
+    </section>
+    <section class="show-tip">
+      <p class="label-tip">Tip: <span class="tip">0</span></p>
+    </section>
+    <section class="show-total">
+      <p class="label-total">Total: <span class="total">0</span></p>
+    </section>
+  </body>
+  <footer class="foot">
+    <p>
+      This programm calculates how much, based on bill value, you should tip the
+      waiter. If the bill is between 50 and 350, the tip will be 15% of the bill.
+      If the value is below 50, the tip will be 30% of the bill. And if the value
+      is greater than 350, the tip will be 10%.
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</html>
